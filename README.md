@@ -1,8 +1,8 @@
 `polyapprox`
 ============
 
-Some tools for forming polynomial or rational approximations
-of the inverse of a function.
+Some tools for forming polynomial or rational approximations of the inverse
+of a function.  `polyapprox` depends on [`mpmath`](https://mpmath.org/).
 
 Two of the functions in this library are `inverse_taylor(f, x0, n)`
 and `inverse_pade(f, x0, m, n)`.
