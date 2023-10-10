@@ -11,9 +11,9 @@ and `inverse_pade(f, x0, m, n)`.
 ----------------
 
 `inverse_taylor(f, x0, n)` computes the Taylor polynomial coefficients of the
-inverse of `f``.
+inverse of `f`.
 
-Given a callable `f``, and a point `x0`, it finds the Taylor polynomial of
+Given a callable `f`, and a point `x0`, it finds the Taylor polynomial of
 degree `n` of the inverse of `f` at `x0`.
 
 If `y0 = f(x0)`, and if the inverse of `f` is `g`, this function returns
